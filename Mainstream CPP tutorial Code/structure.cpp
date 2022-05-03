@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std;//structi=ure is user defined data type with amalgation of multiple or single dats type 
 struct employee{
     int id;
     char author;
