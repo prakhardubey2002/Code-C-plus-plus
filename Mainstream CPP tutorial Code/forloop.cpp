@@ -1,10 +1,7 @@
-# include <iostream>
+#include <iostream>
 using namespace std;
 int main(){
-	int i=10;
-	while(i<=10){
-		cout<<i;
-		i++;
-	}
-		return 0;
+    for(int i=1;i<10;i++){
+        cout<<"Hello world : "<< i <<endl;
+    }
 }
