@@ -6,9 +6,13 @@ void print(int arr[],int n){
     }cout <<endl;
 }
 void swapAlternate(int arr[],int size){
+    int temp;//for applying swap without using swap function
     for(int i =0;i<size;i+=2){
         if(i+1<size){
             swap(arr[i],arr[i+1]);
+            // temp=arr[i];
+            // arr[i]=arr[i+1];
+            // arr[i+1]=temp;
         }
     }
 }
