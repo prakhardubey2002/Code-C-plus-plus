@@ -23,3 +23,4 @@ int main(){
     H.greet();
     return 0;
 }
+//If class is inhertied with a function same as the child class ,child class function is called  

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Complex;//forward declaration so that frienbd function doesn't end with undeclared class
+class Complex;//forward declaration so that friennd function doesn't end with undeclared class
 class Calculater{
     public:
         int add(int a,int b){
