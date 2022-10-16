@@ -18,3 +18,10 @@ Case 3 :
     class A:public B,virtual public C{
         order of execution of constructor : C() then B() then A()
     }
+
+when deriving from two different classes
+``bash
+class Derived:public Base1,public Base2{
+ Derived(int a,int b,int c ,int d):Base1(a),Base2(b)
+ }
+ ``

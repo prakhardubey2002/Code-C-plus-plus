@@ -24,7 +24,7 @@ class Base2{
     public :
         Base2(int i){
             data2=i;
-            cout<<"The Base1 constructor called "<<endl;
+            cout<<"The Base2 constructor called "<<endl;
         }
         void printData2(void){
             cout<<"The value of data2 is "<<data2<<endl;
@@ -47,5 +47,14 @@ int main(){
     Derived Prakhar(1,2,3,4);
     Prakhar.printData1();
     Prakhar.printData2();
+    Prakhar.printdata();
     return 0;
 }
+//output
+// The Base1 constructor called 
+// The Base2 constructor called 
+// Derive class condstrutor called
+// The value of data1 is 1
+// The value of data2 is 2
+// The value of derived1 is 3
+// The value of derived2 is 4
