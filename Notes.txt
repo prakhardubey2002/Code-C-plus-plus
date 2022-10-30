@@ -28,3 +28,9 @@ class Derived:public Base1,public Base2{
  }
  ```
  ---
+ ##STL Standard template library
+ STL=Conatiner(Object that store data)+ Algo(Procedure to proces data like sort or point at certain position)+ Iterators(Object which point to an elemnet of a container)
+ Types of Containers:
+ 1.Sequence Containers[Linear Fashion O->O->O->O]Ex vector,list,Dequeue
+ 2.Associative Containers:offer direct access to data Ex Set/Multiset,Map/Multiset
+ 3. Derived Conatiners:Real World Modelling Ex Stack,Queue,Prority-Queue 
